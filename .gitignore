@@ -1,0 +1,4 @@
+.gradle
+build/
+./src/main/resources/developer-local-machine-spring-config.yml
+.idea

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: user-service
+  profiles:
+    active: ${ENVIRONMENT:local}
+  flyway:
+    default-schema: service_one
+    create-schemas: true
